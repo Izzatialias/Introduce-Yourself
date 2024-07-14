@@ -1,0 +1,697 @@
+body {
+
+	background-color: white;
+	width:100%;
+
+}
+img{max-width:100%;}
+h4 {
+  font-family: Century Schoolbook;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: underline;  
+}
+h1, h2, h3, p {
+    padding: 10px;
+    margin: 0;
+	font-family: Century Schoolbook;
+}
+#head{
+	width:100%;
+	height: 100px;
+	background-color: #DCD0C0;
+	position: sticky;
+	top:0;
+}
+/*WELCOME PAGE*/
+#full{
+	width:100%;
+	height: 750px;
+	background-image: url('image/2nd.jpg');
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: 1550px 1200px;}
+#up{
+	height:200px;
+	width:100%
+}
+#content h1{
+	color: #DCD0C0;
+	text-align: center;
+	font-family:Bodoni MT Condensed;
+	font-size: 600%;
+	margin: 0;
+
+}
+#content p{
+	color: #DCD0C0;
+	text-align: center;
+	font-family:Bodoni MT Condensed;
+	font-size: 200%;
+	margin: 0;
+}
+.menu{
+	text-align: center;
+	background-color: transparent;
+	color: #DCD0C0;
+	font-family:Garamond;
+}
+.button {
+	background-color: #A99282;
+	border: 2px solid #DCD0C0;
+	color: #DCD0C0;
+	padding: 10px 20px;
+	font-family:arial;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 8px 2px;
+	cursor: pointer;
+		
+}
+.button a {color: white; font-weight: bold; text-decoration: none;}
+.button:hover { 
+	background-color: #DCD0C0;
+	color: #1F2833;
+}
+/*CONTACT PAGE*/
+#full_2{
+	width:100%;
+	height: 730px;
+	background-color: #DCD0C0;
+	
+}
+#column{
+	width:100%;
+}
+#form {
+
+	max-width:600px;
+    margin:auto;
+    padding: 0 10px;
+    overflow: hidden;
+
+}
+#message{
+	display:block;
+    width:100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border:0;
+    background: white;
+    padding: 20px 40px;
+    outline:none;
+    color: black;
+    transition: 0.5s;
+	font-size: 16px;
+	border-radius:5px;
+
+}
+
+
+#form h1{
+	font-size: 30px;
+	text-align:center;
+	text-transform: uppercase;
+	margin:40px 0;
+
+}
+#form p{
+	font-size: 20px;
+	margin:15px 0;
+
+}
+#form input{
+	font-size: 16px;
+	padding:20px 15px;
+	width:100%;
+	border:0;
+	border-radius:5px;
+	outline:none;
+	
+}
+#form button{
+	font-size: 18px;
+	font-weight:bold;
+	margin:20px 0;
+	padding: 10px 15px;
+	width:50%;
+	border:0;
+	border-radius:5px;
+	color: #DCD0C0;
+	background-color: black;
+	
+}
+#form button:hover{
+	color:white;
+
+}
+#gender {
+	float: center;
+    margin:auto;
+    padding: 0 10px;
+	text-align:left;
+	max-width:600px;
+    overflow: hidden;
+	font-size: 20px;
+	
+}
+#checkbox{
+	float: center;
+    margin:auto;
+    padding: 0 10px;
+	text-align:left;
+	max-width:600px;
+    overflow: hidden;
+	font-size: 20px;
+}
+
+
+
+
+/*ACHIEVEMENT PAGE*/
+#full_5{
+	width:100%;
+	height:1435px;
+	background-color: white;
+	
+}
+#line1{
+	background-color: white;
+	width: 100%;
+	height: 300px;
+
+}
+
+
+#schoolpic{	
+	height: 300px;
+	width: 50%;
+	max-width: 100%;
+	object-fit: cover;
+	background-color: white;
+	margin: 0;	
+	float: right;
+	display: flex;
+	justify-content: center;
+	
+}
+#sch_left{
+	height: 500px;
+	padding-right: 10px;
+}
+#sch_right{
+	height: 500px;
+	padding-left: 10px;
+
+}
+#textschool {
+	height: 20px; 
+	width: 100%;
+	max-width: 100%;
+	text-align: left;
+	margin: 0;
+	color: purple;
+
+}
+
+}
+#line2{
+	background-color: white;
+	width: 100%;
+	height: 300px;
+
+}
+#univpic{	
+	height: 300px;
+	width: 50%;
+	max-width: 100%;
+	object-fit: cover;
+	background-color: white;
+	border-radius:10px;
+	margin: 0;	
+	float: left;
+	display: flex;
+	justify-content: center;
+	
+}
+#uni_left{
+	height: 500px;
+	padding-right: 20px;
+}
+#uni_right{
+	height: 500px;
+
+}
+#textuni{
+
+	height: 20px; 
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
+	margin: 0;
+	color: purple;
+
+}
+#line3{
+	background-color: white;
+	width: 100%;
+	height: 300px;
+	display:grid;
+	place-items:center;
+
+
+}
+table  {
+  padding: 5px;
+  border: 1px solid grey;
+  text-align: left;
+  font-family: Century Schoolbook;
+  font-size: 15px;
+  background-color: #DCD0C0;
+  border-collapse: collapse; 
+  width: 600px; 
+
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+tr:hover {background-color: #F4F2F0;}
+      
+th {
+  background-color: #A99282;
+  text-align: center;
+}
+      
+
+#types{
+	width:100%;
+	height: 200px;
+	background-color: #DCD0C0;
+	display: flex;
+	justify-content: center;
+	
+}
+#certificate{
+	width:100%;
+	height: 50px;
+	background-color: #DCD0C0;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 150px;
+	
+}
+
+
+#line4{
+	background-color: #DCD0C0;
+	width: 100%;
+	height: 500px;
+	display:grid;
+	place-items:center;
+
+}
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*ABOUT PAGE*/
+#full_4{
+	width:100%;
+	height: 1650px;
+	background-color: white;
+	
+}
+#picture{
+	width:100%;
+	height: 500px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+#pic_left{
+	height: 500px;
+	padding-right: 20px;
+}
+#pic_right{
+	height: 500px;
+
+}
+#full_4 h1{
+	background-color: white;
+	color: black;
+	padding-top: 30px;
+
+}
+#full_4 h2{
+	width: 100%;
+	background-color: white;
+	color: black;
+	display: flex;
+	justify-content: center;
+	padding-right:560px;
+
+}
+#row1{
+	background-color: white;
+	width: 100%;
+	height: 130px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+#row1 p{
+	height: 20px; 
+	width: 50%;
+	text-align: center;
+	color:black;
+	padding-bottom: 50px;
+
+}
+#row2{
+	background-color: white;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+}
+#row2 p{
+	height: 20px; 
+	width: 50%;
+	text-align: left;
+	color: black;
+
+}
+#intro4{
+	background-color: white;
+	width: 100%;
+	height: 460px;
+
+}
+#pic_4{
+
+	height: 450px;
+	width: 50%;
+	max-width: 100%;
+	object-fit: cover;
+	background-color: white;
+	border-radius:10px;
+	margin: 0 auto;	
+	float: left;
+
+}
+#img_4{
+	width: 100%;
+	border-radius: 2px;
+	margin-top: 90px;
+	margin-left: 75px;
+
+}
+#write_4 {
+	height: 20px; 
+	width: 90%;
+	max-width: 100%;
+	text-align: center;
+	margin: 0;
+}
+#write_4 h1{
+	height: 20px; 
+	width: 100%;
+	text-align: center;
+	color:black;
+	padding-top:50px;
+	
+}
+#write_4 p{
+	height: 20px; 
+	width: 100%;
+	text-align: left;
+	color:black;
+	padding-top:120px;
+}
+
+
+/*PHOTO PAGE*/
+#full_3{
+	width:100%;
+	height: 2950px;
+	background-color: white;
+	
+}
+#first h1{
+	color: black;
+	text-align: center;
+	font-family:Bodoni MT Condensed;
+	font-size: 300%;
+	margin: 0;
+
+}
+#first p{
+	color: black;
+	text-align: center;
+	font-family:Bodoni MT Condensed;
+	font-size: 150%;
+	margin: 0;
+
+}
+#second p{
+	color: black;
+	text-align: center;
+	font-family:Bodoni MT Condensed;
+	font-size: 150%;
+	margin: 0;
+
+}
+#picture2{
+	width:100%;
+	height: 500px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+#picture3{
+	width:100%;
+	height: 500px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+
+/*HOME PAGE*/
+#container{
+	width:100%;
+	height: 1718px;
+}
+#end{
+	background-color: #DCD0C0;
+	height: 50px;
+	text-align: center;
+}
+
+/* for name */
+#main{
+	float: left;
+	width: 30%;
+	max-width: 100%;
+	font-family: Bodoni MT Black; 
+	margin: 10px;
+	text-align: center;
+
+}
+
+#main li {
+    display: inline; 
+    padding-right: 30px;
+    font-size: 50px;  
+}
+#main a {color: Black; font-weight: bold; text-decoration: none;}
+
+/* for menu */
+#nav {
+	height: 20px; 
+	width: 100%;
+	text-align: center;
+
+}
+#nav ul {
+    padding-top: 20px; 
+} 
+
+#nav li {
+    display: inline; 
+    padding: 15px;
+    font-size: 15px;
+	background-color:#DCD0C0;
+	border-radius:5px;"
+}
+#nav a {color: Black; font-weight: bold; text-decoration: none;}
+#nav a:hover {color: white;}
+
+#intro{
+	height: 500px;
+	width:100%;
+	font-size: 20px;
+	background-image: url('image/3rd.jpg');
+	background-repeat: no-repeat;
+	background-size: 1550px 500px;
+
+}
+
+
+#intro h5 {
+	width:100%;
+	height: 40px;
+	text-align: center;
+	color: #F4F2F0;
+	font-size: 60px;
+	font-family: sabon next LT;
+	padding-top:50px;
+	padding-left: 20px;
+
+}
+
+#intro2{
+	background-color: white;
+	width: 100%;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+
+}
+#pic_2{
+	height: 450px;
+	width: 50%;
+	max-width: 100%;
+	object-fit: cover;
+	background-color: white;
+	border-radius: 0;
+	float: left;
+	margin-left: 160px ;
+
+}
+#write_2 {
+	height: 20px; 
+	width: 40%;
+	padding-right:70px;
+	max-width: 100%;
+	text-align: left;
+	margin-top:10px;
+	margin-right: 100px;
+
+}
+#img_2 {
+	width: 90%;
+	margin-left: 100px;
+	margin-top: 10px;
+	height: 450px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	border-radius: 10%;
+}
+
+#intro3{
+
+	background-color: white;
+	width: 100%;
+	height: 300px;
+
+}
+
+#poem h1{
+	color: black;
+	text-align: center;
+	font-family:Bodoni MT Condensed;
+	font-size: 300%;
+	background-color:white;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	margin-left:350px;
+}
+#third h1{
+	color: black;
+	text-align: center;
+	font-family:Bodoni MT Condensed;
+	font-size: 300%;
+	background-color:#DCD0C0;
+
+}
+#life{
+	width:100%;
+	height: 300px;
+	background-color: #DCD0C0;
+	display: flex;
+	justify-content: center;
+	
+}
+
+#social{
+	width:100%;
+	height: 50px;
+	background-color: #DCD0C0;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+
+/*MEDIA SCREEN 	*/
+@media screen and (max-width: 768px) {
+    .side {
+    width: 100%;
+  }
+  
+  .section {
+    flex: none;
+    display: block;
+  }
+  
+  .content {
+    width: 100%;
+  }
+  
+  .img {
+    width: 40%;
+  }
+  
+  .header {
+    height: 100px;
+  }    
+}
+
+@media screen and (max-width: 480px) {
+   .side {
+    width: 100%;
+  }
+  
+  .nav li {
+    font-size: 16px;
+    padding-right: 20px;
+  }
+  
+  .img {
+    width: 50%;
+  }
+  
+  .header {
+    height: 80px;
+  }   
+    
+     .footer {
+      img 
+   }
+}
+
+
